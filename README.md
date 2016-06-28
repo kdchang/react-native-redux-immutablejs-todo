@@ -38,10 +38,9 @@ Please check out the [Official Site Setup](https://facebook.github.io/react-nati
 5. redux-actions
 6. redux-immutable
 7. redux-logger
-8. redux-thunk
-9. immutable 
-10. react-native-vector-icons
-11. uuid
+8. immutable 
+9. react-native-vector-icons
+10. uuid
 
 ## References
 1. [React Native 官方網站](https://facebook.github.io/react-native/)

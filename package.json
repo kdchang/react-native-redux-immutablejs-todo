@@ -15,7 +15,6 @@
     "redux-actions": "^0.10.0",
     "redux-immutable": "^3.0.6",
     "redux-logger": "^2.6.1",
-    "redux-thunk": "^2.1.0",
     "uuid": "^2.0.2"
   }
 }
