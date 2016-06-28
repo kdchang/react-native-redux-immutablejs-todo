@@ -1,5 +1,5 @@
 # React Native Redux TodoApp
-This is a TodoApp(includes CRUD) which builds with React Native, Redux and Immutable.js.
+This is a TodoApp(runs on iOS/Android with the same codebase) which builds with React Native, Redux and Immutable.js. 
 
 ## Setup
 Please check out the [Official Site Setup](https://facebook.github.io/react-native/docs/getting-started.html) first ! 
@@ -10,6 +10,12 @@ Please check out the [Official Site Setup](https://facebook.github.io/react-nati
 4. Watchman
 5. Flow
 6. Xcode(iOS only)
+
+## Screenshot
+![React Native Redux TodoApp](./docs/img/screen-shot-1.png)
+![React Native Redux TodoApp](./docs/img/screen-shot-2.png)
+![React Native Redux TodoApp](./docs/img/screen-shot-3.png)
+![React Native Redux TodoApp](./docs/img/screen-shot-4.png)
 
 ## Usage 
 ### iOS
