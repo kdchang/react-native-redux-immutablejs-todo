@@ -6,7 +6,7 @@ Please check out the [Official Site Setup](https://facebook.github.io/react-nati
 
 1. Homebrew
 2. Node
-3. React Native Command Line Tools #
+3. React Native Command Line Tools 
 4. Watchman
 5. Flow
 6. Xcode(iOS only)
