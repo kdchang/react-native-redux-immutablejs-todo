@@ -27,8 +27,8 @@ export default connect(
     editId: state.get('todoReducers').get('editId'),
   }),
   (dispatch) => ({
-    onEditTodo: (id, text) => (
-      () => {
+    onEditTodo: (id) => (
+      (text) => {
         dispatch(toggleEditMode({ id }));
         dispatch(setTodo({ text }));
       }
@@ -57,5 +57,12 @@ export default connect(
         dispatch(toggleTodo({ id }))
       )
     ),
-  })
+  }),
+  (stateProps, dispatchProps, ownProps) => {
+    const { editId } = stateProps;
+    const { onEditTodo } = dispatchProps;
+    return Object.assign({}, ownProps, stateProps, dispatchProps, {
+      onEditTodo: onEditTodo(editId)
+    });
+  }
 )(TodoList);
